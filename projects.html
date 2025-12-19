@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Matthew Hogan</title>
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin=“anonymous"></script>
+    <script src="projects.js"></script>
 </head>
 <body>
-<p>Projects</p>
-
+<button class="back" id="back_button">←</button>
+<div class="box"><header class="header">Projects</header></div>
+<div class="nav-box"> <!-- Div for Navigation Bar -->
+    <nav>
+        <a href="#groovy">Discord Music Bot</a>
+        <a href="#spotify">Spotify Wrapped Companion</a>
+        <a href="#class-sched">Class Scheduler App</a>
+        <a href="#worlds-hard">GBA World's Hardest Game</a>
+        <a href="#notif">Audio Notification System</a>
+    </nav>
+</div>
+<div class="container">
+    <div class="para-box">
+        <div class="para-header">
+            <section class="section-title" id="groovy">Discord Music Bot</section>
+            <img class="pfp" src="groovy-pic.png" alt="Groovy Discord Pic" style="width:550px;height:450px;">
+        </div>
+        <p class="section-para">
+            Developed a bot for Discord that allows users to listen to songs together in a voice channel. It utilizes the yt.dlp, and discord
+             bot libraries to locate, queue, and play the songs. No additional software needed for users (other than giving
+            the bot permissions to join their respective server/voice channel. Has multifaceted interaction with users, allowing them to queue/play songs by typing "-play {song title}". This will
+            either play that song (if nothing is currently playing) or add that song to the queue (if there is currently a song playing). Command buttons are also included to allow the user to
+            skip a track, pause/resume playback, stop the bot altogether (disconnect and wipe the queue), view the current song queue, and shuffle the current song queue. The bot responds to
+            commands to let the user know their chosen song has been queued as well as includes a hyperlink to the YouTube video that it is pulling the audio from. Users can also queue playlists
+            by linking the spotify playlist, and the bot takes those songs and queues them in their respective order.
+            <br> <br>
+            For more information on this bot, please visit the Github Repository:
+            <br> <br>
+            LINK GROOVY GITHUB REPO HERE
+        </p>
+    </div>
+    <div class="para-box">
+        <div class="para-header">
+            <section class="section-title" id="spotify">Spotify Wrapped Companion (NEED TO ADD PICTURE)</section>
+        </div>
+    </div>
+    <div class="para-box">
+        <section class="section-title" id="class-sched">Class Scheduler App</section>
+    </div>
+    <div class="para-box">
+        <section class="section-title" id="worlds-hard">GBA World's Hardest Game</section>
+    </div>
+    <div class="para-box">
+        <section class="section-title" id="notif">Audio Notification System</section>
+    </div>
+</div>
 </body>
 </html>
