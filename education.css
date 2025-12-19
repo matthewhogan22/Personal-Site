@@ -3,6 +3,10 @@
     width: 30px;
     height: 30px;
     padding: 2px;
+    border: 2px solid lightgray;
+    background-color: #4c4f4c;
+    margin-bottom: 10px;
+    color: lightgray;
 }
 
 .box {

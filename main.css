@@ -37,7 +37,7 @@ body {
 .box-grid {
     horiz-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     padding: 10px;
     align-items: center;
