@@ -29,10 +29,7 @@ html, body {
 
 /* Background image */
 body {
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #323332;
     display: grid;
     place-items: center;
 }
@@ -40,7 +37,7 @@ body {
 .box-grid {
     horiz-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     padding: 10px;
     align-items: center;
