@@ -37,6 +37,7 @@ nav a:visited {
     background-color: #4c4f4c;
     padding: 100px;
     border-radius: 20px;
+    width: 70%;
 }
 
 .header {
@@ -90,4 +91,28 @@ body {
     align-items: center;
     gap: 16px;
     justify-content: space-around;
+}
+
+.project-box {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.vert-proj {
+    border: 2px solid #4c4f4c;
+    border-radius: 20px;
+    background-color: #4c4f4c;
+    height: 99.5%;
+    width: 30%;
+}
+
+.vert-header {
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.vert-para {
+    padding-left: 30px;
+    font-size: 30px;
 }
