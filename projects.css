@@ -105,6 +105,7 @@ body {
     background-color: #4c4f4c;
     height: 99.5%;
     width: 30%;
+    align-content: center;
 }
 
 .vert-header {
@@ -115,4 +116,24 @@ body {
 .vert-para {
     padding-left: 30px;
     font-size: 30px;
+}
+
+.repo-link {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 999px;
+
+    background-color: #4c4f4c;
+    color: #95E6F9;
+
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.repo-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.repo-link:visited {
+    color: #95E6F9; /* prevents purple */
 }
